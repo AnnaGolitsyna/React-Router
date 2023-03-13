@@ -6,6 +6,7 @@ Layout with nested routers
 
 ### The tech stack is:
 
+- [Java Script](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [React](https://reactjs.org/docs/getting-started.html)
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [Sass (Scss)](https://sass-lang.com/)
