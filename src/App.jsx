@@ -1,20 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Home from './Home/Home';
-import Users from './Users/Users';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Navigation from './components/Navigation/Navigation';
+import Home from './components/Home/Home';
+import Users from './components/Users/Users';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="page">
-        <ul className="navigation">
-          <li className="navigation__item">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="navigation__item">
-            <Link to="/users">Users</Link>
-          </li>
-        </ul>
+        <Navigation />
         <Route path="/users">
           {' '}
           <Users />

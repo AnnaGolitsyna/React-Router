@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 import User from './User';
+import './users.scss';
 
 const Users = () => {
   return (
